@@ -1,20 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LoginPass
 {
-    public partial class Form1 : Form
+    public partial class LogForm : Form
     {
-        public Form1()
+        public LogForm()
         {
             InitializeComponent();
         }
@@ -49,7 +44,7 @@ namespace LoginPass
         private void reg_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            new Reg().ShowDialog();
+            new RegForm().ShowDialog();
             this.Visible = true;
         }
     }

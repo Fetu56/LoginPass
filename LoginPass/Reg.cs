@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace LoginPass
 {
-    public partial class Reg : Form
+    public partial class RegForm : Form
     {
-        public Reg()
+        public RegForm()
         {
             InitializeComponent();
         }

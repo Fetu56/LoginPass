@@ -1,7 +1,7 @@
 ﻿
 namespace LoginPass
 {
-    partial class Reg
+    partial class RegForm
     {
         /// <summary>
         /// Required designer variable.
